@@ -4,8 +4,8 @@ var margin = {
   bottom: 6,
   left: 1
 },
-width = 960 - margin.left - margin.right,
-  height = 800 - margin.top - margin.bottom;
+width = 1024 - margin.left - margin.right,
+  height = 1500 - margin.top - margin.bottom;
 
 var formatNumber = d3.format(",.0f"),
   format = function(d) {

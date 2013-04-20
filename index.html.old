@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+        <title>Hackaton</title>
+        <script type="text/javascript" src="js/libs/d3.v3.js" ></script>
+        <script type="text/javascript" src="js/libs/sankey.js" ></script>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+    </head>
+    <body>
+        <div id="chart"></div>
+        <div class="chart"></div>
+          <script type="text/javascript" src="js/dataset.js" ></script>
+          <script type="text/javascript" src="js/hack.js" ></script>
+    </body>
+</html>

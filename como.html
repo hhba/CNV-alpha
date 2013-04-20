@@ -16,11 +16,13 @@
 		</div>
 		<div class="grid_10">
 			<div class="content expander">
-				<h4>Bienvenidos</h4>
-				<p>Secuestros de empresarios, desapoderamiento de bienes. El terrorismo de Estado también se ocupó de barrer con lo que consideró la “subversión económica”. Adelanto exclusivo del análisis de más de 500 actas del directorio, legajos y entrevistas con las víctimas." -Página 12 (24-03-2013)</p>
-				<br>
-				<br>
-				<h1><a href="chart.html" target="_blank">Ver infografía</a></h1>
+				<h4>Cómo lo hicimos</h4>
+				<p>
+					El equipo de investigación de la CNV construyó un dataset que identifica todas los empresarios y agentes de bolsa que fueron secuestrados por los grupos de tareas para quitarles empresas y bienes. Con el equipo de HHBA entendimos que la mejor forma de visualizar esta información era graficar el esfuerzo represivo de la dictadura para apropiarse de empresas y, para ello, nos valimos del <a href="http://bost.ocks.org/mike/sankey/" target="_blank">Diagrama Sankey</a> que permite mostrar el flujo y recorrido entre un punto y otro. Así, nuestro punto de partida era la estructura represiva (fuerza interviniente) que utilizaba un recurso x (represores) para secuestrar empresarios y agentes de bolsa (empresarios) que eran dueños de compañías que operaban en la city porteña (empresas).</br></br>
+					El gran problema es que el diagrama funciona asignando un valor de flujo que representa el tamaño de la conexión con el nodo siguiente. Como no existe aún un generador de Diagrama de Sankey (en realidad es un diagrama que no está pensado para el fin que lo estamos utilizando en esta oportunidad) tuvimos que reconstruir la tabla y repetir "n" veces las conexiones ya que algunos secuestradores actuaban en grupo, o también, empresarios que eran dueños de más de una empresa. Normalizada la información, descubrimos que la tabla no puede tener campos vacíos porque generaban referencias circulares (se apuntaban a sí mismos) que inutilizaban el diagrama. Una vez completados los campos, todo fue diferente y pudimos visualizar esta primera demo que permite ver la envergadura de la represión dirigida específicamente a los grupos financieros.
+				</p>
+				<div id="chart">
+				</div>
 				
 			</div>
 		</div>

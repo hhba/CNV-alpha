@@ -1,7 +1,475 @@
 var dataset = {
     "nodes": [{
         "name": "Isidoro Graiver"
-    }, "Casa de Cambio Brasilia", "Alfredo Bellusci", "Luis A. Grassi", "Cobo Aberg Martin", "Samuel Miara", "Antonio Juan Sergi", "Santurio", "Natalio Kejner", "Marta Susana Garc\u00eda Tezanos Pinto", "Jorge Tejerina", "Luis Alberto Mart\u00ednez", "Constructora Sure\u00f1a Argentina S. A.", "Julio Hector Casse (h)", "Represor no identificado", "Enrique Oziel", "Luisa Fernanda R. Fabri", "Felix Roque Miera", "Sigma", "Sadeco", "carlos Hugo alegre", "Federico Gutheim", "Honorio Carlos Mart\u00ednez Ruiz", "Mackentor", "Mario Rafael Bivolarsky", "Luis Arias", "Carlos Iaccarino", "Rub\u00e9n Bufano", "Pedro Leon Zavalia", "Banco Latinoamericano", "Carlos Lima", "Revista Mercado", "Pedro Eugenio Santos", "Emilio Demetrio Virinni", "Eduardo Cardona", "Marcelo Augusto Chavanne", "Luis C. Pignataro", "Empresario Hotelero", "Enrique Dios", "Jos\u00e9 Miguel Thus", "Marcelo Saturnio", "Lidia Papaleo de Graiver", "Julio Hector Casse (p)", "Roberto Bulleti", "Comando 3\u00ba Cuerpo del Ejercito", "Victor Rei", "La Agricola", "Bernardo Duggan", "Adalberto Muzzio", "Lelia Norma Rapuzzi", "Enrique L. Garcia Mansilla", "Polic\u00eda Bancaria", "Julio Daich", "Juli\u00e1n Delgado", "Jose Benigno Lorea", "FINSUR", "Lidia Catalina Gesualdi de Angarola", "Alfredo Hugo Vidal", "Gustavo Roca", "Carlos Baratta", "Financiera Rio Parana", "Vicente Domingo Callipolli", "Ram\u00f3n Ramis", "Casa de Cambio Marras", "Alberto Mart\u00ednez Blanco", "Joyero", "Araiz", "Ra\u00fal A. Alberici", "Enzo Alejandro Manassero", "Ricardo Taddei", "Carlos Mateo", "Francisco Fernandez Bernandez", "Jose Ahmed", "Eduardo Augusto Aguirre Saravia", "Rafael Lopez Fader", "C\u00e9sar Estanislao Albarrac\u00edn", "Ignacio Baez", "Ciatra S.H.", "Roberto Rico", "Banco de San Miguel", "Conrado Hignino G\u00f3mez", "Alberto Caeta", "El cronista Comercial", "Bulgari", "Ilumbras S.R.L.", "Delia Mabel Carro", "Francisco Obdulio D'Alessandri", "Jos\u00e9 Luis Pujalte", "Ernesto Washington Detry", "Mario Satanovsky", "Jaime Osvaldo Prissant", "Maria Elena Prado", "Hermanos Escudero", "Norberto Raffoul", "Jos\u00e9 Siderman", "Carlos Benito", "Anibal Gordon", "Jos\u00e9 Mar\u00eda Blanco", "Agentes de Bolsa", "Alejandro A. Pinedo", "Enrique Brodsky", "Desapoderado", "Hierromat", "Rene Carlos Grassi", "Alberto Simon Tatian", "Cambio Am\u00e9rica SA", "Flora Dybner de Ravel", "Banco de Hurlingham", "Jacobo Timerman", "Rafael Ianover", "Orlando Benjam\u00edn Oscar Reinoso", "Relacionado con Banco SIDESA", "Juan Graiver", "Jaime Fern\u00e1ndez Madero", "Omar Masera Pincolini", "Aurelio Cid", "Camilo Ahmed", "Carlos AlbertoLorenzatti", "Comando 1\u00ba Cuerpo del Ejercito", "Jorge David S. Buleraich", "N\u00e9stor Gurfinkel", "Cerro Largo SA", "Caja de Credito Murillo", "Edgardo Enzo Manassero", "Banco Oddone", "Fuerza interviniente no identificada", "Miguel Ernesto Gutheim", "Ra\u00fal Guglielminetti", "Primera Plana", "Pedro Fassan", "Horacio Tortosa", "Angel Sargiotto", "Benjam\u00edn Froin Taub", "Carlos Alberto Abriola", "Eva Gitnacht", "Luis Guillermo Taub", "Editorial Abril", "Industrias L\u00e1cteas Santiague\u00f1as S.A.C.I.F.A.", "Estanciero", "Carlos Zamb\u00f3n", "Elida Mayol", "H\u00e9ctor Galeano", "Papel Prensa SA", "Sara Duggan", "Karina Werthein", "Atkinsons", "Francisco Garc\u00eda Ondarts", "Jorge Arias", "Hermenegildo Pav\u00e1n", "Calos Cuello", "Empresa no identificada", "Ind. Siderurgicas Grassi", "Jorge Lujan Gimenez", "Flora Gurevich", "Roberto Apstein", "La Opinion", "Industrias Avicolas Santafecinas", "Juan Arriola", "Jose Miguel Coggiola", "Lozadur", "Luciano B. Men\u00e9ndez", "Ernesto Maria de Estrada", "Leandro S\u00e1nchez Reisse", "L\u00eda Margarita Delgado", "Gerardo Mora", "Ricardo Tomasevich", "Marta Kejner", "Fern\u00e1ndez Madero & Duggan", "Promosur SA", "Inmobiliaria del Nor-Oeste S.A", "Rodolfo Iaccarino", "Mauricio Litchtenstein", "Alfredo Capalbo", "Ramon Avalos", "Confirmado", "Angela Margarita Fosco", "Hugo Taboada", "Eduardo Rufo", "Miguel Angel Ramirez", "Lidia Haydee Brodsky de Graiver", "Juan Carlos Arza", "Ricardo Bertoldi", "Juan Carlos Bayarri", "Diego Guelar", "Luis Pav\u00e1n", "Carlos Koldobsky", "Alejandro Iaccarino", "Mancilla", "Taddei", "Ra\u00fal Ram\u00f3n Aguirre Saravia", "Jaime Benedit", "Hotel Liberty", "Miguel Angel Arias", "Daniel Paskvan", "Fernando Combal", "Julio Dudoc", "Eduardo Oxenford", "Osvaldo Sivak", "Horacio Mario Palma", "Bulleti", "Benjam\u00edn Neuman", "Estudio Bas\u00edlico", "Isidoro de Carabassa", "MM El Milagro.", "Raul Gonzalez", "Luis Hugo Andersen", "Jorge Grande", "Rafael L\u00f3pez Fader", "Codez", "Silvia Fanjul", "Eduardo Saiegh", "Marino del Valle Ure\u00f1a", "Miguel Angel Roque", "Banquero", "Roberto Rouald\u00e9s", "Banco Mercantil (sobrina del titular)", "C\u00e9sar Alejandro Enciso", "Luis Alberto Oddone", "Jorge Luis Naput", "Salar", "Ferreyra, Calder\u00f3n", "Alberto Cordeu", "Gustavo Caravallo", "Juan Claudio Chavanne", "Raul Guglielminetti", "Carlos Altamira", "Roberto Guillermo Fossa", "Jorge Rubinstein", "Emilio Sergio Limonti", "Reynaldo Defranco Fant\u00edn", "Griensu", "Juan Carlos Domingo Sotille", "Victor Cerrutti", "Norberto Cozzani", "Establecimiento Agropecuario La Marta"],
+    }, {
+        "name": "Casa de Cambio Brasilia"
+    }, {
+        "name": "Alfredo Bellusci"
+    }, {
+        "name": "Luis A. Grassi"
+    }, {
+        "name": "Cobo Aberg Martin"
+    }, {
+        "name": "Samuel Miara"
+    }, {
+        "name": "Antonio Juan Sergi"
+    }, {
+        "name": "Santurio"
+    }, {
+        "name": "Natalio Kejner"
+    }, {
+        "name": "Marta Susana Garc\u00eda Tezanos Pinto"
+    }, {
+        "name": "Jorge Tejerina"
+    }, {
+        "name": "Luis Alberto Mart\u00ednez"
+    }, {
+        "name": "Constructora Sure\u00f1a Argentina S. A."
+    }, {
+        "name": "Julio Hector Casse (h)"
+    }, {
+        "name": "Represor no identificado"
+    }, {
+        "name": "Enrique Oziel"
+    }, {
+        "name": "Luisa Fernanda R. Fabri"
+    }, {
+        "name": "Felix Roque Miera"
+    }, {
+        "name": "Sigma"
+    }, {
+        "name": "Sadeco"
+    }, {
+        "name": "carlos Hugo alegre"
+    }, {
+        "name": "Federico Gutheim"
+    }, {
+        "name": "Honorio Carlos Mart\u00ednez Ruiz"
+    }, {
+        "name": "Mackentor"
+    }, {
+        "name": "Mario Rafael Bivolarsky"
+    }, {
+        "name": "Luis Arias"
+    }, {
+        "name": "Carlos Iaccarino"
+    }, {
+        "name": "Rub\u00e9n Bufano"
+    }, {
+        "name": "Pedro Leon Zavalia"
+    }, {
+        "name": "Banco Latinoamericano"
+    }, {
+        "name": "Carlos Lima"
+    }, {
+        "name": "Revista Mercado"
+    }, {
+        "name": "Pedro Eugenio Santos"
+    }, {
+        "name": "Emilio Demetrio Virinni"
+    }, {
+        "name": "Eduardo Cardona"
+    }, {
+        "name": "Marcelo Augusto Chavanne"
+    }, {
+        "name": "Luis C. Pignataro"
+    }, {
+        "name": "Empresario Hotelero"
+    }, {
+        "name": "Enrique Dios"
+    }, {
+        "name": "Jos\u00e9 Miguel Thus"
+    }, {
+        "name": "Marcelo Saturnio"
+    }, {
+        "name": "Lidia Papaleo de Graiver"
+    }, {
+        "name": "Julio Hector Casse (p)"
+    }, {
+        "name": "Roberto Bulleti"
+    }, {
+        "name": "Comando 3\u00ba Cuerpo del Ejercito"
+    }, {
+        "name": "Victor Rei"
+    }, {
+        "name": "La Agricola"
+    }, {
+        "name": "Bernardo Duggan"
+    }, {
+        "name": "Adalberto Muzzio"
+    }, {
+        "name": "Lelia Norma Rapuzzi"
+    }, {
+        "name": "Enrique L. Garcia Mansilla"
+    }, {
+        "name": "Polic\u00eda Bancaria"
+    }, {
+        "name": "Julio Daich"
+    }, {
+        "name": "Juli\u00e1n Delgado"
+    }, {
+        "name": "Jose Benigno Lorea"
+    }, {
+        "name": "FINSUR"
+    }, {
+        "name": "Lidia Catalina Gesualdi de Angarola"
+    }, {
+        "name": "Alfredo Hugo Vidal"
+    }, {
+        "name": "Gustavo Roca"
+    }, {
+        "name": "Carlos Baratta"
+    }, {
+        "name": "Financiera Rio Parana"
+    }, {
+        "name": "Vicente Domingo Callipolli"
+    }, {
+        "name": "Ram\u00f3n Ramis"
+    }, {
+        "name": "Casa de Cambio Marras"
+    }, {
+        "name": "Alberto Mart\u00ednez Blanco"
+    }, {
+        "name": "Joyero"
+    }, {
+        "name": "Araiz"
+    }, {
+        "name": "Ra\u00fal A. Alberici"
+    }, {
+        "name": "Enzo Alejandro Manassero"
+    }, {
+        "name": "Ricardo Taddei"
+    }, {
+        "name": "Carlos Mateo"
+    }, {
+        "name": "Francisco Fernandez Bernandez"
+    }, {
+        "name": "Jose Ahmed"
+    }, {
+        "name": "Eduardo Augusto Aguirre Saravia"
+    }, {
+        "name": "Rafael Lopez Fader"
+    }, {
+        "name": "C\u00e9sar Estanislao Albarrac\u00edn"
+    }, {
+        "name": "Ignacio Baez"
+    }, {
+        "name": "Ciatra S.H."
+    }, {
+        "name": "Roberto Rico"
+    }, {
+        "name": "Banco de San Miguel"
+    }, {
+        "name": "Conrado Hignino G\u00f3mez"
+    }, {
+        "name": "Alberto Caeta"
+    }, {
+        "name": "El cronista Comercial"
+    }, {
+        "name": "Bulgari"
+    }, {
+        "name": "Ilumbras S.R.L."
+    }, {
+        "name": "Delia Mabel Carro"
+    }, {
+        "name": "Francisco Obdulio D'Alessandri"
+    }, {
+        "name": "Jos\u00e9 Luis Pujalte"
+    }, {
+        "name": "Ernesto Washington Detry"
+    }, {
+        "name": "Mario Satanovsky"
+    }, {
+        "name": "Jaime Osvaldo Prissant"
+    }, {
+        "name": "Maria Elena Prado"
+    }, {
+        "name": "Hermanos Escudero"
+    }, {
+        "name": "Norberto Raffoul"
+    }, {
+        "name": "Jos\u00e9 Siderman"
+    }, {
+        "name": "Carlos Benito"
+    }, {
+        "name": "Anibal Gordon"
+    }, {
+        "name": "Jos\u00e9 Mar\u00eda Blanco"
+    }, {
+        "name": "Agentes de Bolsa"
+    }, {
+        "name": "Alejandro A. Pinedo"
+    }, {
+        "name": "Enrique Brodsky"
+    }, {
+        "name": "Desapoderado"
+    }, {
+        "name": "Hierromat"
+    }, {
+        "name": "Rene Carlos Grassi"
+    }, {
+        "name": "Alberto Simon Tatian"
+    }, {
+        "name": "Cambio Am\u00e9rica SA"
+    }, {
+        "name": "Flora Dybner de Ravel"
+    }, {
+        "name": "Banco de Hurlingham"
+    }, {
+        "name": "Jacobo Timerman"
+    }, {
+        "name": "Rafael Ianover"
+    }, {
+        "name": "Orlando Benjam\u00edn Oscar Reinoso"
+    }, {
+        "name": "Relacionado con Banco SIDESA"
+    }, {
+        "name": "Juan Graiver"
+    }, {
+        "name": "Jaime Fern\u00e1ndez Madero"
+    }, {
+        "name": "Omar Masera Pincolini"
+    }, {
+        "name": "Aurelio Cid"
+    }, {
+        "name": "Camilo Ahmed"
+    }, {
+        "name": "Carlos AlbertoLorenzatti"
+    }, {
+        "name": "Comando 1\u00ba Cuerpo del Ejercito"
+    }, {
+        "name": "Jorge David S. Buleraich"
+    }, {
+        "name": "N\u00e9stor Gurfinkel"
+    }, {
+        "name": "Cerro Largo SA"
+    }, {
+        "name": "Caja de Credito Murillo"
+    }, {
+        "name": "Edgardo Enzo Manassero"
+    }, {
+        "name": "Banco Oddone"
+    }, {
+        "name": "Fuerza interviniente no identificada"
+    }, {
+        "name": "Miguel Ernesto Gutheim"
+    }, {
+        "name": "Ra\u00fal Guglielminetti"
+    }, {
+        "name": "Primera Plana"
+    }, {
+        "name": "Pedro Fassan"
+    }, {
+        "name": "Horacio Tortosa"
+    }, {
+        "name": "Angel Sargiotto"
+    }, {
+        "name": "Benjam\u00edn Froin Taub"
+    }, {
+        "name": "Carlos Alberto Abriola"
+    }, {
+        "name": "Eva Gitnacht"
+    }, {
+        "name": "Luis Guillermo Taub"
+    }, {
+        "name": "Editorial Abril"
+    }, {
+        "name": "Industrias L\u00e1cteas Santiague\u00f1as S.A.C.I.F.A."
+    }, {
+        "name": "Estanciero"
+    }, {
+        "name": "Carlos Zamb\u00f3n"
+    }, {
+        "name": "Elida Mayol"
+    }, {
+        "name": "H\u00e9ctor Galeano"
+    }, {
+        "name": "Papel Prensa SA"
+    }, {
+        "name": "Sara Duggan"
+    }, {
+        "name": "Karina Werthein"
+    }, {
+        "name": "Atkinsons"
+    }, {
+        "name": "Francisco Garc\u00eda Ondarts"
+    }, {
+        "name": "Jorge Arias"
+    }, {
+        "name": "Hermenegildo Pav\u00e1n"
+    }, {
+        "name": "Calos Cuello"
+    }, {
+        "name": "Empresa no identificada"
+    }, {
+        "name": "Ind. Siderurgicas Grassi"
+    }, {
+        "name": "Jorge Lujan Gimenez"
+    }, {
+        "name": "Flora Gurevich"
+    }, {
+        "name": "Roberto Apstein"
+    }, {
+        "name": "La Opinion"
+    }, {
+        "name": "Industrias Avicolas Santafecinas"
+    }, {
+        "name": "Juan Arriola"
+    }, {
+        "name": "Jose Miguel Coggiola"
+    }, {
+        "name": "Lozadur"
+    }, {
+        "name": "Luciano B. Men\u00e9ndez"
+    }, {
+        "name": "Ernesto Maria de Estrada"
+    }, {
+        "name": "Leandro S\u00e1nchez Reisse"
+    }, {
+        "name": "L\u00eda Margarita Delgado"
+    }, {
+        "name": "Gerardo Mora"
+    }, {
+        "name": "Ricardo Tomasevich"
+    }, {
+        "name": "Marta Kejner"
+    }, {
+        "name": "Fern\u00e1ndez Madero & Duggan"
+    }, {
+        "name": "Promosur SA"
+    }, {
+        "name": "Inmobiliaria del Nor-Oeste S.A"
+    }, {
+        "name": "Rodolfo Iaccarino"
+    }, {
+        "name": "Mauricio Litchtenstein"
+    }, {
+        "name": "Alfredo Capalbo"
+    }, {
+        "name": "Ramon Avalos"
+    }, {
+        "name": "Confirmado"
+    }, {
+        "name": "Angela Margarita Fosco"
+    }, {
+        "name": "Hugo Taboada"
+    }, {
+        "name": "Eduardo Rufo"
+    }, {
+        "name": "Miguel Angel Ramirez"
+    }, {
+        "name": "Lidia Haydee Brodsky de Graiver"
+    }, {
+        "name": "Juan Carlos Arza"
+    }, {
+        "name": "Ricardo Bertoldi"
+    }, {
+        "name": "Juan Carlos Bayarri"
+    }, {
+        "name": "Diego Guelar"
+    }, {
+        "name": "Luis Pav\u00e1n"
+    }, {
+        "name": "Carlos Koldobsky"
+    }, {
+        "name": "Alejandro Iaccarino"
+    }, {
+        "name": "Mancilla"
+    }, {
+        "name": "Taddei"
+    }, {
+        "name": "Ra\u00fal Ram\u00f3n Aguirre Saravia"
+    }, {
+        "name": "Jaime Benedit"
+    }, {
+        "name": "Hotel Liberty"
+    }, {
+        "name": "Miguel Angel Arias"
+    }, {
+        "name": "Daniel Paskvan"
+    }, {
+        "name": "Fernando Combal"
+    }, {
+        "name": "Julio Dudoc"
+    }, {
+        "name": "Eduardo Oxenford"
+    }, {
+        "name": "Osvaldo Sivak"
+    }, {
+        "name": "Horacio Mario Palma"
+    }, {
+        "name": "Bulleti"
+    }, {
+        "name": "Benjam\u00edn Neuman"
+    }, {
+        "name": "Estudio Bas\u00edlico"
+    }, {
+        "name": "Isidoro de Carabassa"
+    }, {
+        "name": "MM El Milagro."
+    }, {
+        "name": "Raul Gonzalez"
+    }, {
+        "name": "Luis Hugo Andersen"
+    }, {
+        "name": "Jorge Grande"
+    }, {
+        "name": "Rafael L\u00f3pez Fader"
+    }, {
+        "name": "Codez"
+    }, {
+        "name": "Silvia Fanjul"
+    }, {
+        "name": "Eduardo Saiegh"
+    }, {
+        "name": "Marino del Valle Ure\u00f1a"
+    }, {
+        "name": "Miguel Angel Roque"
+    }, {
+        "name": "Banquero"
+    }, {
+        "name": "Roberto Rouald\u00e9s"
+    }, {
+        "name": "Banco Mercantil (sobrina del titular)"
+    }, {
+        "name": "C\u00e9sar Alejandro Enciso"
+    }, {
+        "name": "Luis Alberto Oddone"
+    }, {
+        "name": "Jorge Luis Naput"
+    }, {
+        "name": "Salar"
+    }, {
+        "name": "Ferreyra, Calder\u00f3n"
+    }, {
+        "name": "Alberto Cordeu"
+    }, {
+        "name": "Gustavo Caravallo"
+    }, {
+        "name": "Juan Claudio Chavanne"
+    }, {
+        "name": "Raul Guglielminetti"
+    }, {
+        "name": "Carlos Altamira"
+    }, {
+        "name": "Roberto Guillermo Fossa"
+    }, {
+        "name": "Jorge Rubinstein"
+    }, {
+        "name": "Emilio Sergio Limonti"
+    }, {
+        "name": "Reynaldo Defranco Fant\u00edn"
+    }, {
+        "name": "Griensu"
+    }, {
+        "name": "Juan Carlos Domingo Sotille"
+    }, {
+        "name": "Victor Cerrutti"
+    }, {
+        "name": "Norberto Cozzani"
+    }, {
+        "name": "Establecimiento Agropecuario La Marta"
+    }],
     "links": [{
         "source": 118,
         "target": 81,
