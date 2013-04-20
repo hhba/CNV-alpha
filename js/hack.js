@@ -7,10 +7,10 @@ var margin = {
 width = 960 - margin.left - margin.right,
   height = 800 - margin.top - margin.bottom;
 
-// var formatNumber = d3.format(",.0f"),
-//   format = function(d) {
-//     return formatNumber(d) + " TWh";
-//   },
+var formatNumber = d3.format(",.0f"),
+  format = function(d) {
+    return formatNumber(d) + " empresarios afectados";
+  };
 var color = d3.scale.category20();
 
 
@@ -49,7 +49,7 @@ function draw(dataset) {
 
   link.append("title")
     .text(function(d) {
-    return d.source.name + " → " + d.target.name + "\n" + d.value;
+    return d.source.name + " → " + d.target.name + "\n" + formatNumber(d.value);
   });
 
   var node = svg.append("g").selectAll(".node")
@@ -81,7 +81,7 @@ function draw(dataset) {
   })
     .append("title")
     .text(function(d) {
-    return d.name + "\n" + d.value;
+    return d.name + "\n" + formatNumber(d.value);
   });
 
   node.append("text")
