@@ -20,7 +20,7 @@ Autores :
 	Agustin Schelstraete,
 	Ramiro Calero,
 	Sergio Sorin,
-	My berru,
+	Mariana Berruezo,
 	Luciana Calbosa,
 	Silvana Frederic,
 	Manuel Aristarán
