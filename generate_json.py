@@ -23,11 +23,12 @@ def generate():
                                 'key': API_KEY })
         rv['nodes'] = rv['nodes'] + [x[0] for x in r.json()['rows'] if x[0] != '']
 
-    rv['nodes'] = list(set(rv['nodes']))
+    rv['nodes'] = [{'name': x} for x in list(set(rv['nodes']))]
 
     links = (('Fuerza interviniente', 'Represor'), 
              ('Represor', 'Empresario'), 
              ('Empresario', 'Empresa'))
+
     for l in links:
         query = 'SELECT COUNT(), \'%s\', \'%s\' FROM %s GROUP BY \'%s\', \'%s\'' % (l[0], l[1], TABLE_ID, l[0], l[1])
 
@@ -36,8 +37,8 @@ def generate():
                               'sql': query,
                               'key': API_KEY })
 
-        rv['links'] = rv['links'] + [{'source': rv['nodes'].index(x[1]), 
-                                      'target': rv['nodes'].index(x[2]), 
+        rv['links'] = rv['links'] + [{'source': rv['nodes'].index({'name': x[1]}), 
+                                      'target': rv['nodes'].index({'name': x[2]}), 
                                       'value': int(x[0])} 
                                      for x in r.json()['rows']]
     
